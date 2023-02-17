@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "CRM Speeder",
+    "version": "1.0",
+	
+	
+	"description": "A nice and fast extension that'll enhance your CRM experience with a set of handy keyboard shortcuts.",
+    "content_scripts":[
+        {
+            "matches":["<all_urls>"],
+            "js": ["/scripts/script.js"],
+            "css": ["styles.css"]
+        }
+    ]
+}
